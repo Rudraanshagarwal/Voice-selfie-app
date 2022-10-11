@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Voice Selfie App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    </head>
+    <body>
+        <center>
+
+            <a href="" id="link" download="myselfie.png"></a>
+  
+        <h1 id="HeADIND">Voice Selfie App
+        <img id="i1" src="I1.jpg"></h1>
+
+    <h3 id="c3">Please press allow as soon as popup comes. After you give a voice command
+    </h3>
+    <h1>Say "Take My Selfie"</h1>
+    <h4>Your Voice Output : </h4>
+    <Input id="Output" type="text" readonly="true"></Input>
+    <br>
+    <br>
+    <button id="Start" onclick="start()">Start</button>
+    <br>
+    <br>
+    <div id="camera"></div>
+    <br>
+    <div id="Selfie"></div>
+    </center>
+    <script src="main.js"></script>
+    </body>
+</html>

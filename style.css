@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background:linear-gradient(blue,red)
+}
+#HeADIND{
+    color: white;
+    font-weight:400;
+}
+#C3{
+    color: rgb(152, 224, 175);
+}
+#Output{
+    width: 30%;
+    height: 5%;
+    border: 2px aqua solid;
+
+}
+#Webcam{
+    width: 300px;
+    height: 300px;
+    border: 2px rgb(221, 236, 153) solid;
+}
+#Selfie{
+    width: 300px;
+    height: 300px;
+    border: 2px rgb(221, 236, 153) dotted;
+}
+#i1{
+    height: 50px;
+    width: 50px;
+}
+#Start{
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
